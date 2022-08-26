@@ -3,7 +3,7 @@ import App from './App.vue'
 import router from './router'
 import axios from 'axios'
 // en ajoutant axios à l'objet "window", on le rend disponible dans tous nos composants
-window.axios = axios.create({ baseURL: 'http://localhost:8080/api/' });
+window.axios = axios.create({ baseURL: 'https://filmothequecyril.herokuapp.com/api/' });
 
 /*
 * On ajoute un interceptor avant nos requêtes
